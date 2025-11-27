@@ -32,9 +32,10 @@ Alurnya:
 3. File hasil ekstraksi ditempatkan ke:
 4. **Semua file di dalam ZIP ikut diekstraksi**, termasuk file `.php`.
 5. Jika ZIP berisi file backdoor seperti:
-   zip/
+   ```zip/
    └── myplugin/
    └── shell.php
+   ```
    Maka file dapat diakses melalui: **/plugins/myplugin/shell.php**
 6. Ini dapat menyebabkan **arbitrary file write** → **remote code execution** apabila admin memakai password lemah.
 
