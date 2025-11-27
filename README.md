@@ -16,8 +16,8 @@
 
 - **CVE ID** : CVE-2025-65862  
 - **Produk terdampak** : SLiMS Bulian v9.7.2  
-- **Klasifikasi** : Arbitrary File Write → Remote Code Execution (RCE)  
-- **Tingkat Keparahan** : Tinggi  
+- **Klasifikasi** : Arbitrary File Upload → Remote Code Execution (RCE)  
+- **Tingkat Keparahan** : Sedang  
 - **Sumber publik penelitian** :  
   https://medium.com/@xpl0dec/zeroday-slims9-bulian-v9-7-2-arbitrary-file-write-to-rce-6a458ad7960f
 
