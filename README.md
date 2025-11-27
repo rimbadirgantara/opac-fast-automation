@@ -29,15 +29,15 @@ Alurnya:
 
 1. Aplikasi menerima upload file ZIP.
 2. Sistem melakukan ekstraksi otomatis.
-3. File hasil ekstraksi ditempatkan ke:
-4. **Semua file di dalam ZIP ikut diekstraksi**, termasuk file `.php`.
+3. File hasil ekstraksi ditempatkan ke: **/plugins/**
+4. Semua file di dalam ZIP ikut diekstraksi, termasuk file `.php`.
 5. Jika ZIP berisi file backdoor seperti:
-   ```zip/
+   ```plugins/
    └── myplugin/
    └── shell.php
    ```
    Maka file dapat diakses melalui: **/plugins/myplugin/shell.php**
-6. Ini dapat menyebabkan **arbitrary file write** → **remote code execution** apabila admin memakai password lemah.
+6. Ini dapat menyebabkan **arbitrary file upload** → **remote code execution** apabila pengguna menggunakan kombinasi kredensial yang lemah.
 
 ---
 
@@ -48,7 +48,7 @@ Jika Anda mengelola SLiMS, perhatikan hal berikut:
 - Terdapat folder mencurigakan di `/plugins/`
 - File PHP asing di dalam folder plugin
 - Log upload plugin dari akun dengan password lemah
-- Aktivitas file yang tidak biasa setelah upload ZIP
+- Aktivitas file yang tidak biasa setelah upload file .zip
 - Request mencurigakan ke: 
    /plugins/<nama-plugin>/something.php
 
