@@ -86,7 +86,6 @@ Skript ini digunakan untuk:
 ---
 
 ## ▶️ Contoh Penggunaan
-Gambar (contoh UI CLI):  
 ![Penggunaan](run.png)
 
 --- 
