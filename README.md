@@ -118,13 +118,6 @@ tanpa izin dari penulis.
 
 ---
 
-## 💬 Kontak
-
-Untuk kolaborasi penelitian, pelaporan bug, atau akses versi premium berkala:
-**Telegram:** https://t.me/srwxrwxrwx
-
----
-
 ## 📝 Penutup
 
 Repository ini dibuat sebagai dokumentasi kerentanan, analisis teknis, dan pengembangan alat pengujian.  
